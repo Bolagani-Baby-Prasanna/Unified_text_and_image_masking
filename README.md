@@ -1,3 +1,4 @@
+
 # Step 1 — Baseline: LayoutLMv3-base fine-tuned on FUNSD
 
 This is the first milestone of the project. Goal: get a working baseline
@@ -39,7 +40,7 @@ CUDA available: True
 GPU: <your GPU name>
 Loading FUNSD dataset...
 ...
-=== BASELINE FUNSD RESULTS (record these) ===
+
 eval_f1: 0.XX
 eval_precision: 0.XX
 eval_recall: 0.XX
@@ -70,3 +71,5 @@ Once this baseline number is recorded, the next milestone is:
    baseline.
 
 Let me know once Step 1 gives you numbers and we'll move to Step 2.
+
+# Unified_text_and_image_masking
