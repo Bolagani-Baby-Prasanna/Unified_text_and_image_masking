@@ -51,8 +51,8 @@ PDF: https://arxiv.org/pdf/2204.08387
 5. **PubLayNet:** Document layout analysis.
    - Base model overall mAP: 95.1
 
-  i) The main comparison table reports Base results of 90.29 F1 (FUNSD), 96.56 F1 (CORD), 95.44% accuracy (RVL-CDIP), and 78.76 ANLS (DocVQA). The Large model reports 92.08, 97.46, 95.93%, and 83.37 respectively. On PubLayNet, the Base model reaches 95.1 overall mAP in the vision-task experiment.
-  ii) The paper also reports that LayoutLMv3 is more parameter-efficient than LayoutLMv2 in the Base comparison: 133M vs. 200M parameters. The ablation study indicates that adding MIM and WPA improves performance over using MLM alone, and MIM is especially important for stable training on the visual layout-analysis task.
+  - The main comparison table reports Base results of 90.29 F1 (FUNSD), 96.56 F1 (CORD), 95.44% accuracy (RVL-CDIP), and 78.76 ANLS (DocVQA). The Large model reports 92.08, 97.46, 95.93%, and 83.37 respectively. On PubLayNet, the Base model reaches 95.1 overall mAP in the vision-task experiment.
+  - The paper also reports that LayoutLMv3 is more parameter-efficient than LayoutLMv2 in the Base comparison: 133M vs. 200M parameters. The ablation study indicates that adding MIM and WPA improves performance over using MLM alone, and MIM is especially important for stable training on the visual layout-analysis task.
   **Overall takeaway:** LayoutLMv3 performs strongly on both text-centric tasks (forms, receipts, document QA) and image-centric tasks (document classification and layout analysis), while using a simpler patch-based visual input pipeline.
 
  ## 7. Three doubts for guide meeting:
